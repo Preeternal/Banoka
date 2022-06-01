@@ -48,7 +48,7 @@ export default createSelector(
     creditEdinComOption: number,
     creditStartCostCom: number,
     creditFinCostCom: number,
-    creditAcCountCom: number,
+    creditAcCountCom: number
     // radio: number,
   ) => {
     const payments =
@@ -216,5 +216,5 @@ export default createSelector(
       interestPayments, // на оплату процентов
       table,
     };
-  },
+  }
 );

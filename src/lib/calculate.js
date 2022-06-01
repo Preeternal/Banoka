@@ -47,7 +47,7 @@ export default createSelector(
     taxCheck: number,
     taxRate: number,
     country: number,
-    language: number,
+    language: number
   ) => {
     // const dOpen: Date = changeDate(dateOpen);
     // const dClosed: Date = changeDate(dateClosed);
@@ -66,7 +66,7 @@ export default createSelector(
     const dni: string = daysString(days); // '', день, дня, дней
     const DaysAfterMonths: { days1: number, cf: number } = daysAfterMonths(
       dOpen,
-      dClosed,
+      dClosed
     );
     const { days1, cf } = DaysAfterMonths;
     const dni1: string = daysString(days1); // '', день, дня, дней
@@ -235,5 +235,5 @@ export default createSelector(
       adjunctionAll,
       table,
     };
-  },
+  }
 );
