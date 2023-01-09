@@ -33,7 +33,7 @@
     "graphql": "^15.3.0",
     "i18n-js": "^3.7.0",
     "iconv-lite": "^0.6.2",
-    "luxon": "^1.25.0",
+    "luxon": "^1.28.1",
     "node-cron": "^2.0.3",
     "number-to-locale-string": "^1.2.0",
     "prop-types": "^15.7.2",
