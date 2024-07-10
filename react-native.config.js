@@ -1,15 +1,10 @@
 module.exports = {
-  // config for a library is scoped under "dependency" key
-  assets: ['src/assets/', 'react-native-vector-icons'], // stays the same
-  // dependency: {
-  //   // platforms: {
-  //   //   ios: {},
-  //   //   android: {} // projects are grouped into "platforms"
-  //   // },
-  //   assets: ['src/assets/fonts/'] // stays the same
-  //   // hooks are considered anti-pattern, please avoid them
-  //   // hooks: {
-  //   //   prelink: './path-to-a-prelink-hook'
-  //   // }
-  // }
+    assets: ['src/assets/'],
+    dependencies: {
+        'react-native-vector-icons': {
+            platforms: {
+                ios: null,
+            },
+        },
+    },
 };

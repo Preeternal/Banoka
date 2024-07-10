@@ -3,41 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A5891D8CCB4D2BB06F6647 /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AD74B3BFEA34E15A32266BD /* Ubuntu-LI.ttf */; };
 		00E356F31AD99517003FC87E /* BanokaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BanokaTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-Banoka.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Banoka.a */; };
+		10D61C40AA9C4904B266F0EF /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA17E0DBBB064909A34363C9 /* Ubuntu-B.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		24730B0A51694DB0B1F5D48F /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9C4B3EDCC46459BBD834776 /* Ubuntu-M.ttf */; };
-		248651C13E464F8C8DDE1809 /* depo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D94F3EE406E04CF78C9379EE /* depo.jpg */; };
-		29BC4DA3C0DB4391BD4533AE /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 655EBC72869C47FAA0850F97 /* Ubuntu-B.ttf */; };
-		2C9BAA6DB2423705FB408B4B /* libPods-Banoka-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2584E69C27A2031398276FA6 /* libPods-Banoka-tvOSTests.a */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* BanokaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BanokaTests.m */; };
-		302B3BA5FA3ADC9617B96684 /* libPods-Banoka.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 498C1B336EC4405135E7FBC5 /* libPods-Banoka.a */; };
-		5054C8C94E80AA31590348C1 /* libPods-Banoka-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D5646A9DB17C1413EF8966 /* libPods-Banoka-tvOS.a */; };
-		6D31B1AC4C7B41FB9D735B80 /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E33CE72C86194EBAA0A2E0A4 /* Ubuntu-L.ttf */; };
-		727800F2F5144EC49B87E604 /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB7EF65E56474BEFAEB74583 /* Ubuntu-MI.ttf */; };
-		73B4230E6F56420BAC9310F2 /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A34D65FC9A3A4FF9914C5C3B /* UbuntuMono-R.ttf */; };
-		7CB0BC3A2C194732A83D8C75 /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07A8FBE5218440E6A593BD8F /* UbuntuMono-B.ttf */; };
+		46D44F29CBC74D47B87AEEB7 /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85D3214E815F4605B8A362DB /* Ubuntu-RI.ttf */; };
+		4CED52F66CE84AD7AA86B6AD /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = E998ABDCE83942C899531F63 /* index.js */; };
+		5961D497BFCB4F70846DE25E /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6FDCDAC6EDA4318B55EFC24 /* Ubuntu-M.ttf */; };
+		632EDEFA070847F399645982 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F267A931E4146D9B2DCA1E1 /* Ubuntu-R.ttf */; };
+		639C8777C6FD4F9496A4C18A /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF55DD5249694C59BB8EAB70 /* UbuntuMono-R.ttf */; };
+		664FE53A4A3C49798149AEE2 /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7D0D264D1AF4CDE85F009A3 /* UbuntuMono-RI.ttf */; };
+		6ED5979EDCEB4167BB73F6D8 /* credit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A79236116548E282CC16F0 /* credit.jpg */; };
+		7699B88040F8A987B510C191 /* libPods-Banoka-BanokaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Banoka-BanokaTests.a */; };
+		7DFB0E2421DD487784F4BA86 /* banoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C74504301744F3B392C7DC /* banoka.jpg */; };
+		7FD4EC9E870A4D138CEE5029 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170CC8D7BFB54C89B3337B98 /* Ubuntu-C.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		87DB931013C34FE5BAEC1C48 /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7885D0BE84A4AB883870C81 /* UbuntuMono-BI.ttf */; };
-		9A65CBD521A045F5B0D66647 /* banoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E76EB2550FC4479DAA358986 /* banoka.jpg */; };
-		A7BFD9C8D7C94CD6B07348B2 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08FDDF9C58C3406991ABA782 /* Ubuntu-R.ttf */; };
-		A7F8465C08984365B0BD0199 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF54F5C97873486789A3D76D /* Ubuntu-C.ttf */; };
-		A7FF49ABC7224539971629BC /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8247E84C88CD44A48A325C11 /* Ubuntu-LI.ttf */; };
-		AAB02EA5B2DA464FB6CFA94B /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26579BFE0B37404EBC7C6302 /* Ubuntu-BI.ttf */; };
-		B1B6333FACF16CE7514E5363 /* libPods-Banoka-BanokaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8D03CD637E21EDBCA1946C /* libPods-Banoka-BanokaTests.a */; };
-		B362F0645D49438984165913 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 083BB8404D3142EF8D45B6F2 /* logo.jpg */; };
-		B483921BF00A4B05BFB1E0BC /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C46E42A57E84F739FB6DD51 /* screen.png */; };
-		E3275912BA7B473E84893969 /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C89E0C2759E6498FA65C1025 /* Ubuntu-RI.ttf */; };
-		E49CEF94F06A437A986B2B44 /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04293F6FC6A94EA0B480F46B /* UbuntuMono-RI.ttf */; };
-		F56CD1D7D60441FC9C71199D /* credit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D660E21E3BC14586A32932E7 /* credit.jpg */; };
+		82C7DEC3904D43E8A81503FD /* depo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05D104FB3D834738B24F8DE8 /* depo.jpg */; };
+		933DE393EB454EA79ABF8552 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = E23F0769C7C149BAB937D676 /* screen.png */; };
+		B772C9DF02D2A8DA9F04FC46 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1CA2598F5903DEEED0C0E162 /* PrivacyInfo.xcprivacy */; };
+		C70A90075F974373867050F3 /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF25F152979340B8864E40C8 /* UbuntuMono-B.ttf */; };
+		CF44F63E724B46F1B2ECDBDD /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45E903C7F0744E8ABFBAF2DF /* Ubuntu-L.ttf */; };
+		D8AACD412C2ED3CC0030FED9 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD2D2C2ED3CC0030FED9 /* AntDesign.ttf */; };
+		D8AACD422C2ED3CC0030FED9 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD2E2C2ED3CC0030FED9 /* Entypo.ttf */; };
+		D8AACD432C2ED3CC0030FED9 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD2F2C2ED3CC0030FED9 /* EvilIcons.ttf */; };
+		D8AACD442C2ED3CC0030FED9 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD302C2ED3CC0030FED9 /* Feather.ttf */; };
+		D8AACD452C2ED3CC0030FED9 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD312C2ED3CC0030FED9 /* FontAwesome.ttf */; };
+		D8AACD462C2ED3CC0030FED9 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD322C2ED3CC0030FED9 /* FontAwesome5_Brands.ttf */; };
+		D8AACD472C2ED3CC0030FED9 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD332C2ED3CC0030FED9 /* FontAwesome5_Regular.ttf */; };
+		D8AACD482C2ED3CC0030FED9 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD342C2ED3CC0030FED9 /* FontAwesome5_Solid.ttf */; };
+		D8AACD492C2ED3CC0030FED9 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD352C2ED3CC0030FED9 /* FontAwesome6_Brands.ttf */; };
+		D8AACD4A2C2ED3CC0030FED9 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD362C2ED3CC0030FED9 /* FontAwesome6_Regular.ttf */; };
+		D8AACD4B2C2ED3CC0030FED9 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD372C2ED3CC0030FED9 /* FontAwesome6_Solid.ttf */; };
+		D8AACD4C2C2ED3CC0030FED9 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD382C2ED3CC0030FED9 /* Fontisto.ttf */; };
+		D8AACD4D2C2ED3CC0030FED9 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD392C2ED3CC0030FED9 /* Foundation.ttf */; };
+		D8AACD4E2C2ED3CC0030FED9 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD3A2C2ED3CC0030FED9 /* Ionicons.ttf */; };
+		D8AACD4F2C2ED3CC0030FED9 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD3B2C2ED3CC0030FED9 /* MaterialCommunityIcons.ttf */; };
+		D8AACD502C2ED3CC0030FED9 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD3C2C2ED3CC0030FED9 /* MaterialIcons.ttf */; };
+		D8AACD512C2ED3CC0030FED9 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD3D2C2ED3CC0030FED9 /* Octicons.ttf */; };
+		D8AACD522C2ED3CC0030FED9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD3E2C2ED3CC0030FED9 /* SimpleLineIcons.ttf */; };
+		D8AACD532C2ED3CC0030FED9 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8AACD3F2C2ED3CC0030FED9 /* Zocial.ttf */; };
+		DA461570C5C74B118C7A0ED4 /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B572E080136D4C5284E883A2 /* Ubuntu-BI.ttf */; };
+		E2A78CC51C904D9DAB80F3C0 /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08238CC7AEA849D2A616AB54 /* UbuntuMono-BI.ttf */; };
+		E8587F312EAB4D63B52A4557 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD7BAE8E9BAF42C8A421E980 /* logo.jpg */; };
+		FA43D70418344C0C84B98936 /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92C080CE641A4884A0C6780F /* Ubuntu-MI.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,77 +63,66 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = Banoka;
 		};
-		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Banoka-tvOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* BanokaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanokaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BanokaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanokaTests.m; sourceTree = "<group>"; };
-		04293F6FC6A94EA0B480F46B /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuMono-RI.ttf"; path = "../src/assets/fonts/UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
-		07A8FBE5218440E6A593BD8F /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuMono-B.ttf"; path = "../src/assets/fonts/UbuntuMono-B.ttf"; sourceTree = "<group>"; };
-		083BB8404D3142EF8D45B6F2 /* logo.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo.jpg; path = ../src/assets/images/logo.jpg; sourceTree = "<group>"; };
-		08FDDF9C58C3406991ABA782 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-R.ttf"; path = "../src/assets/fonts/Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		05D104FB3D834738B24F8DE8 /* depo.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = depo.jpg; path = ../src/assets/images/depo.jpg; sourceTree = "<group>"; };
+		08238CC7AEA849D2A616AB54 /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuMono-BI.ttf"; path = "../src/assets/fonts/UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Banoka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Banoka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Banoka/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Banoka/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Banoka/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Banoka/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Banoka/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Banoka/main.m; sourceTree = "<group>"; };
-		153561BF28B54A1E8ACEE8C1 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		173D34B3C1548320E2774F33 /* Pods-Banoka-BanokaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka-BanokaTests.debug.xcconfig"; path = "Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2584E69C27A2031398276FA6 /* libPods-Banoka-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Banoka-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26579BFE0B37404EBC7C6302 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-BI.ttf"; path = "../src/assets/fonts/Ubuntu-BI.ttf"; sourceTree = "<group>"; };
-		27FA93214BE642D7927FE42E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		28769A793D8D448FA42009DA /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
-		2B4E89EB2BA1489381561BB9 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Banoka-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banoka-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Banoka-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Banoka-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F9901AC9BF776628856F59F /* Pods-Banoka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka.debug.xcconfig"; path = "Target Support Files/Pods-Banoka/Pods-Banoka.debug.xcconfig"; sourceTree = "<group>"; };
-		2FEA2C9E7107E399CD04AEF5 /* Pods-Banoka-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Banoka-tvOSTests/Pods-Banoka-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3FCF3B19AB4E42C89F6E3291 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		41F63B376E67426691B5E852 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		498C1B336EC4405135E7FBC5 /* libPods-Banoka.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Banoka.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C46E42A57E84F739FB6DD51 /* screen.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = screen.png; path = ../src/assets/images/screen.png; sourceTree = "<group>"; };
-		568E6547080A266AB2BA9AD7 /* Pods-Banoka-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Banoka-tvOS/Pods-Banoka-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		655EBC72869C47FAA0850F97 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-B.ttf"; path = "../src/assets/fonts/Ubuntu-B.ttf"; sourceTree = "<group>"; };
-		692E767C2F61426187A4D3A6 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		6F0FA6B400F2417C8F0F74D5 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		76339ADEC4FE4591BFED989B /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		76F83A042DA347ECA73FB94F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Banoka/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		170CC8D7BFB54C89B3337B98 /* Ubuntu-C.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-C.ttf"; path = "../src/assets/fonts/Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Banoka-BanokaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Banoka-BanokaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA2598F5903DEEED0C0E162 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Banoka/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3AD74B3BFEA34E15A32266BD /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-LI.ttf"; path = "../src/assets/fonts/Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-Banoka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka.debug.xcconfig"; path = "Target Support Files/Pods-Banoka/Pods-Banoka.debug.xcconfig"; sourceTree = "<group>"; };
+		45E903C7F0744E8ABFBAF2DF /* Ubuntu-L.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-L.ttf"; path = "../src/assets/fonts/Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-Banoka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka.release.xcconfig"; path = "Target Support Files/Pods-Banoka/Pods-Banoka.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-Banoka-BanokaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka-BanokaTests.debug.xcconfig"; path = "Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-Banoka.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Banoka.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F267A931E4146D9B2DCA1E1 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-R.ttf"; path = "../src/assets/fonts/Ubuntu-R.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Banoka/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8247E84C88CD44A48A325C11 /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-LI.ttf"; path = "../src/assets/fonts/Ubuntu-LI.ttf"; sourceTree = "<group>"; };
-		8F802FF29E7D35FD84739711 /* Pods-Banoka-BanokaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka-BanokaTests.release.xcconfig"; path = "Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests.release.xcconfig"; sourceTree = "<group>"; };
-		91D5646A9DB17C1413EF8966 /* libPods-Banoka-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Banoka-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9423E2EF2CF9464AB1ECDF92 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		9DBCE0F49BA245DEA267D64E /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		A34D65FC9A3A4FF9914C5C3B /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuMono-R.ttf"; path = "../src/assets/fonts/UbuntuMono-R.ttf"; sourceTree = "<group>"; };
-		A91122A2C3844E489E227CDD /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		A9C4B3EDCC46459BBD834776 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-M.ttf"; path = "../src/assets/fonts/Ubuntu-M.ttf"; sourceTree = "<group>"; };
-		AE8D03CD637E21EDBCA1946C /* libPods-Banoka-BanokaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Banoka-BanokaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6F8DE8A44E640E0868EAC23 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		BADCA8DC6D8313ED3E5E5457 /* Pods-Banoka-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Banoka-tvOSTests/Pods-Banoka-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		BB7EF65E56474BEFAEB74583 /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-MI.ttf"; path = "../src/assets/fonts/Ubuntu-MI.ttf"; sourceTree = "<group>"; };
-		C7885D0BE84A4AB883870C81 /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuMono-BI.ttf"; path = "../src/assets/fonts/UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
-		C7F4489CC87B485CA144A17F /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		C89E0C2759E6498FA65C1025 /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-RI.ttf"; path = "../src/assets/fonts/Ubuntu-RI.ttf"; sourceTree = "<group>"; };
-		CF54F5C97873486789A3D76D /* Ubuntu-C.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-C.ttf"; path = "../src/assets/fonts/Ubuntu-C.ttf"; sourceTree = "<group>"; };
-		D660E21E3BC14586A32932E7 /* credit.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = credit.jpg; path = ../src/assets/images/credit.jpg; sourceTree = "<group>"; };
-		D94F3EE406E04CF78C9379EE /* depo.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = depo.jpg; path = ../src/assets/images/depo.jpg; sourceTree = "<group>"; };
-		E33CE72C86194EBAA0A2E0A4 /* Ubuntu-L.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-L.ttf"; path = "../src/assets/fonts/Ubuntu-L.ttf"; sourceTree = "<group>"; };
-		E76EB2550FC4479DAA358986 /* banoka.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = banoka.jpg; path = ../src/assets/images/banoka.jpg; sourceTree = "<group>"; };
-		E78469C945FE9D84A85F01A3 /* Pods-Banoka-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Banoka-tvOS/Pods-Banoka-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		85D3214E815F4605B8A362DB /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-RI.ttf"; path = "../src/assets/fonts/Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-Banoka-BanokaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka-BanokaTests.release.xcconfig"; path = "Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests.release.xcconfig"; sourceTree = "<group>"; };
+		92C080CE641A4884A0C6780F /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-MI.ttf"; path = "../src/assets/fonts/Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		A6FDCDAC6EDA4318B55EFC24 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-M.ttf"; path = "../src/assets/fonts/Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		B572E080136D4C5284E883A2 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-BI.ttf"; path = "../src/assets/fonts/Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		B6C74504301744F3B392C7DC /* banoka.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = banoka.jpg; path = ../src/assets/images/banoka.jpg; sourceTree = "<group>"; };
+		BF25F152979340B8864E40C8 /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuMono-B.ttf"; path = "../src/assets/fonts/UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		C7D0D264D1AF4CDE85F009A3 /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuMono-RI.ttf"; path = "../src/assets/fonts/UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
+		CD7BAE8E9BAF42C8A421E980 /* logo.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo.jpg; path = ../src/assets/images/logo.jpg; sourceTree = "<group>"; };
+		D8AACD2D2C2ED3CC0030FED9 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		D8AACD2E2C2ED3CC0030FED9 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		D8AACD2F2C2ED3CC0030FED9 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		D8AACD302C2ED3CC0030FED9 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		D8AACD312C2ED3CC0030FED9 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		D8AACD322C2ED3CC0030FED9 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		D8AACD332C2ED3CC0030FED9 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		D8AACD342C2ED3CC0030FED9 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		D8AACD352C2ED3CC0030FED9 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		D8AACD362C2ED3CC0030FED9 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		D8AACD372C2ED3CC0030FED9 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		D8AACD382C2ED3CC0030FED9 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		D8AACD392C2ED3CC0030FED9 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		D8AACD3A2C2ED3CC0030FED9 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		D8AACD3B2C2ED3CC0030FED9 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		D8AACD3C2C2ED3CC0030FED9 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		D8AACD3D2C2ED3CC0030FED9 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		D8AACD3E2C2ED3CC0030FED9 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		D8AACD3F2C2ED3CC0030FED9 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		E23F0769C7C149BAB937D676 /* screen.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = screen.png; path = ../src/assets/images/screen.png; sourceTree = "<group>"; };
+		E998ABDCE83942C899531F63 /* index.js */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = index.js; path = ../src/assets/images/index.js; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FA841CA7C45F5517AB2D6658 /* Pods-Banoka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banoka.release.xcconfig"; path = "Target Support Files/Pods-Banoka/Pods-Banoka.release.xcconfig"; sourceTree = "<group>"; };
-		FF89271FB0D6400B9B2BBB80 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		F1A79236116548E282CC16F0 /* credit.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = credit.jpg; path = ../src/assets/images/credit.jpg; sourceTree = "<group>"; };
+		FA17E0DBBB064909A34363C9 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-B.ttf"; path = "../src/assets/fonts/Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		FF55DD5249694C59BB8EAB70 /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuMono-R.ttf"; path = "../src/assets/fonts/UbuntuMono-R.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B6333FACF16CE7514E5363 /* libPods-Banoka-BanokaTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-Banoka-BanokaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,23 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302B3BA5FA3ADC9617B96684 /* libPods-Banoka.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5054C8C94E80AA31590348C1 /* libPods-Banoka-tvOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C9BAA6DB2423705FB408B4B /* libPods-Banoka-tvOSTests.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-Banoka.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,84 +165,52 @@
 		13B07FAE1A68108700A75B9A /* Banoka */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				1CA2598F5903DEEED0C0E162 /* PrivacyInfo.xcprivacy */,
 			);
 			name = Banoka;
-			sourceTree = "<group>";
-		};
-		23FC239D11AC47D3810958E8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E76EB2550FC4479DAA358986 /* banoka.jpg */,
-				D660E21E3BC14586A32932E7 /* credit.jpg */,
-				D94F3EE406E04CF78C9379EE /* depo.jpg */,
-				083BB8404D3142EF8D45B6F2 /* logo.jpg */,
-				4C46E42A57E84F739FB6DD51 /* screen.png */,
-				655EBC72869C47FAA0850F97 /* Ubuntu-B.ttf */,
-				26579BFE0B37404EBC7C6302 /* Ubuntu-BI.ttf */,
-				CF54F5C97873486789A3D76D /* Ubuntu-C.ttf */,
-				E33CE72C86194EBAA0A2E0A4 /* Ubuntu-L.ttf */,
-				8247E84C88CD44A48A325C11 /* Ubuntu-LI.ttf */,
-				A9C4B3EDCC46459BBD834776 /* Ubuntu-M.ttf */,
-				BB7EF65E56474BEFAEB74583 /* Ubuntu-MI.ttf */,
-				08FDDF9C58C3406991ABA782 /* Ubuntu-R.ttf */,
-				C89E0C2759E6498FA65C1025 /* Ubuntu-RI.ttf */,
-				07A8FBE5218440E6A593BD8F /* UbuntuMono-B.ttf */,
-				C7885D0BE84A4AB883870C81 /* UbuntuMono-BI.ttf */,
-				A34D65FC9A3A4FF9914C5C3B /* UbuntuMono-R.ttf */,
-				04293F6FC6A94EA0B480F46B /* UbuntuMono-RI.ttf */,
-				A91122A2C3844E489E227CDD /* AntDesign.ttf */,
-				C7F4489CC87B485CA144A17F /* Entypo.ttf */,
-				76F83A042DA347ECA73FB94F /* EvilIcons.ttf */,
-				6F0FA6B400F2417C8F0F74D5 /* Feather.ttf */,
-				153561BF28B54A1E8ACEE8C1 /* FontAwesome.ttf */,
-				2B4E89EB2BA1489381561BB9 /* FontAwesome5_Brands.ttf */,
-				41F63B376E67426691B5E852 /* FontAwesome5_Regular.ttf */,
-				28769A793D8D448FA42009DA /* FontAwesome5_Solid.ttf */,
-				9423E2EF2CF9464AB1ECDF92 /* Fontisto.ttf */,
-				FF89271FB0D6400B9B2BBB80 /* Foundation.ttf */,
-				76339ADEC4FE4591BFED989B /* Ionicons.ttf */,
-				3FCF3B19AB4E42C89F6E3291 /* MaterialCommunityIcons.ttf */,
-				9DBCE0F49BA245DEA267D64E /* MaterialIcons.ttf */,
-				B6F8DE8A44E640E0868EAC23 /* Octicons.ttf */,
-				27FA93214BE642D7927FE42E /* SimpleLineIcons.ttf */,
-				692E767C2F61426187A4D3A6 /* Zocial.ttf */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				498C1B336EC4405135E7FBC5 /* libPods-Banoka.a */,
-				AE8D03CD637E21EDBCA1946C /* libPods-Banoka-BanokaTests.a */,
-				91D5646A9DB17C1413EF8966 /* libPods-Banoka-tvOS.a */,
-				2584E69C27A2031398276FA6 /* libPods-Banoka-tvOSTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-Banoka.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Banoka-BanokaTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		630A6F7EF45895F9E9D9BEB0 /* Pods */ = {
+		40C3D1514455478C830238EA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2F9901AC9BF776628856F59F /* Pods-Banoka.debug.xcconfig */,
-				FA841CA7C45F5517AB2D6658 /* Pods-Banoka.release.xcconfig */,
-				173D34B3C1548320E2774F33 /* Pods-Banoka-BanokaTests.debug.xcconfig */,
-				8F802FF29E7D35FD84739711 /* Pods-Banoka-BanokaTests.release.xcconfig */,
-				568E6547080A266AB2BA9AD7 /* Pods-Banoka-tvOS.debug.xcconfig */,
-				E78469C945FE9D84A85F01A3 /* Pods-Banoka-tvOS.release.xcconfig */,
-				2FEA2C9E7107E399CD04AEF5 /* Pods-Banoka-tvOSTests.debug.xcconfig */,
-				BADCA8DC6D8313ED3E5E5457 /* Pods-Banoka-tvOSTests.release.xcconfig */,
+				FA17E0DBBB064909A34363C9 /* Ubuntu-B.ttf */,
+				B572E080136D4C5284E883A2 /* Ubuntu-BI.ttf */,
+				170CC8D7BFB54C89B3337B98 /* Ubuntu-C.ttf */,
+				45E903C7F0744E8ABFBAF2DF /* Ubuntu-L.ttf */,
+				3AD74B3BFEA34E15A32266BD /* Ubuntu-LI.ttf */,
+				A6FDCDAC6EDA4318B55EFC24 /* Ubuntu-M.ttf */,
+				92C080CE641A4884A0C6780F /* Ubuntu-MI.ttf */,
+				5F267A931E4146D9B2DCA1E1 /* Ubuntu-R.ttf */,
+				85D3214E815F4605B8A362DB /* Ubuntu-RI.ttf */,
+				BF25F152979340B8864E40C8 /* UbuntuMono-B.ttf */,
+				08238CC7AEA849D2A616AB54 /* UbuntuMono-BI.ttf */,
+				FF55DD5249694C59BB8EAB70 /* UbuntuMono-R.ttf */,
+				C7D0D264D1AF4CDE85F009A3 /* UbuntuMono-RI.ttf */,
+				B6C74504301744F3B392C7DC /* banoka.jpg */,
+				F1A79236116548E282CC16F0 /* credit.jpg */,
+				05D104FB3D834738B24F8DE8 /* depo.jpg */,
+				E998ABDCE83942C899531F63 /* index.js */,
+				CD7BAE8E9BAF42C8A421E980 /* logo.jpg */,
+				E23F0769C7C149BAB937D676 /* screen.png */,
 			);
-			path = Pods;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -267,13 +223,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D8AACD402C2ED3CC0030FED9 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Banoka */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* BanokaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				23FC239D11AC47D3810958E8 /* Resources */,
-				630A6F7EF45895F9E9D9BEB0 /* Pods */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				40C3D1514455478C830238EA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -285,10 +242,46 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* Banoka.app */,
 				00E356EE1AD99517003FC87E /* BanokaTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Banoka-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Banoka-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-Banoka.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-Banoka.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-Banoka-BanokaTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-Banoka-BanokaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8AACD402C2ED3CC0030FED9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D8AACD2D2C2ED3CC0030FED9 /* AntDesign.ttf */,
+				D8AACD2E2C2ED3CC0030FED9 /* Entypo.ttf */,
+				D8AACD2F2C2ED3CC0030FED9 /* EvilIcons.ttf */,
+				D8AACD302C2ED3CC0030FED9 /* Feather.ttf */,
+				D8AACD312C2ED3CC0030FED9 /* FontAwesome.ttf */,
+				D8AACD322C2ED3CC0030FED9 /* FontAwesome5_Brands.ttf */,
+				D8AACD332C2ED3CC0030FED9 /* FontAwesome5_Regular.ttf */,
+				D8AACD342C2ED3CC0030FED9 /* FontAwesome5_Solid.ttf */,
+				D8AACD352C2ED3CC0030FED9 /* FontAwesome6_Brands.ttf */,
+				D8AACD362C2ED3CC0030FED9 /* FontAwesome6_Regular.ttf */,
+				D8AACD372C2ED3CC0030FED9 /* FontAwesome6_Solid.ttf */,
+				D8AACD382C2ED3CC0030FED9 /* Fontisto.ttf */,
+				D8AACD392C2ED3CC0030FED9 /* Foundation.ttf */,
+				D8AACD3A2C2ED3CC0030FED9 /* Ionicons.ttf */,
+				D8AACD3B2C2ED3CC0030FED9 /* MaterialCommunityIcons.ttf */,
+				D8AACD3C2C2ED3CC0030FED9 /* MaterialIcons.ttf */,
+				D8AACD3D2C2ED3CC0030FED9 /* Octicons.ttf */,
+				D8AACD3E2C2ED3CC0030FED9 /* SimpleLineIcons.ttf */,
+				D8AACD3F2C2ED3CC0030FED9 /* Zocial.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BanokaTests" */;
 			buildPhases = (
-				4CD99A9C013ADF32A8A831F6 /* [CP] Check Pods Manifest.lock */,
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				4AE46977ECA81C543B3E86D1 /* [CP] Copy Pods Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,13 +312,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Banoka" */;
 			buildPhases = (
-				DD092D0C5E4F8E99522F7AFA /* [CP] Check Pods Manifest.lock */,
-				FD10A7F022414F080027D42C /* Start Packager */,
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				D03CA9C12559D7AA682502CC /* [CP] Copy Pods Resources */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,52 +329,13 @@
 			productReference = 13B07F961A680F5B00A75B9A /* Banoka.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Banoka-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Banoka-tvOS" */;
-			buildPhases = (
-				DB14B8911A3EEF7CB88DA123 /* [CP] Check Pods Manifest.lock */,
-				FD10A7F122414F3F0027D42C /* Start Packager */,
-				2D02E4771E0B4A5D006451C7 /* Sources */,
-				2D02E4781E0B4A5D006451C7 /* Frameworks */,
-				2D02E4791E0B4A5D006451C7 /* Resources */,
-				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Banoka-tvOS";
-			productName = "Banoka-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Banoka-tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2D02E48F1E0B4A5D006451C7 /* Banoka-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Banoka-tvOSTests" */;
-			buildPhases = (
-				99ED58A0A193EC0580958235 /* [CP] Check Pods Manifest.lock */,
-				2D02E48C1E0B4A5D006451C7 /* Sources */,
-				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
-				2D02E48E1E0B4A5D006451C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
-			);
-			name = "Banoka-tvOSTests";
-			productName = "Banoka-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Banoka-tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -389,19 +344,10 @@
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
 					};
-					2D02E47A1E0B4A5D006451C7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
-					2D02E48F1E0B4A5D006451C7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2D02E47A1E0B4A5D006451C7;
-					};
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Banoka" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -415,8 +361,6 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* Banoka */,
 				00E356ED1AD99517003FC87E /* BanokaTests */,
-				2D02E47A1E0B4A5D006451C7 /* Banoka-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Banoka-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -434,40 +378,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				D8AACD4D2C2ED3CC0030FED9 /* Foundation.ttf in Resources */,
+				D8AACD4E2C2ED3CC0030FED9 /* Ionicons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				9A65CBD521A045F5B0D66647 /* banoka.jpg in Resources */,
-				F56CD1D7D60441FC9C71199D /* credit.jpg in Resources */,
-				248651C13E464F8C8DDE1809 /* depo.jpg in Resources */,
-				B362F0645D49438984165913 /* logo.jpg in Resources */,
-				B483921BF00A4B05BFB1E0BC /* screen.png in Resources */,
-				29BC4DA3C0DB4391BD4533AE /* Ubuntu-B.ttf in Resources */,
-				AAB02EA5B2DA464FB6CFA94B /* Ubuntu-BI.ttf in Resources */,
-				A7F8465C08984365B0BD0199 /* Ubuntu-C.ttf in Resources */,
-				6D31B1AC4C7B41FB9D735B80 /* Ubuntu-L.ttf in Resources */,
-				A7FF49ABC7224539971629BC /* Ubuntu-LI.ttf in Resources */,
-				24730B0A51694DB0B1F5D48F /* Ubuntu-M.ttf in Resources */,
-				727800F2F5144EC49B87E604 /* Ubuntu-MI.ttf in Resources */,
-				A7BFD9C8D7C94CD6B07348B2 /* Ubuntu-R.ttf in Resources */,
-				E3275912BA7B473E84893969 /* Ubuntu-RI.ttf in Resources */,
-				7CB0BC3A2C194732A83D8C75 /* UbuntuMono-B.ttf in Resources */,
-				87DB931013C34FE5BAEC1C48 /* UbuntuMono-BI.ttf in Resources */,
-				73B4230E6F56420BAC9310F2 /* UbuntuMono-R.ttf in Resources */,
-				E49CEF94F06A437A986B2B44 /* UbuntuMono-RI.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4791E0B4A5D006451C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D8AACD502C2ED3CC0030FED9 /* MaterialIcons.ttf in Resources */,
+				B772C9DF02D2A8DA9F04FC46 /* PrivacyInfo.xcprivacy in Resources */,
+				D8AACD4A2C2ED3CC0030FED9 /* FontAwesome6_Regular.ttf in Resources */,
+				10D61C40AA9C4904B266F0EF /* Ubuntu-B.ttf in Resources */,
+				DA461570C5C74B118C7A0ED4 /* Ubuntu-BI.ttf in Resources */,
+				D8AACD462C2ED3CC0030FED9 /* FontAwesome5_Brands.ttf in Resources */,
+				D8AACD512C2ED3CC0030FED9 /* Octicons.ttf in Resources */,
+				7FD4EC9E870A4D138CEE5029 /* Ubuntu-C.ttf in Resources */,
+				D8AACD4C2C2ED3CC0030FED9 /* Fontisto.ttf in Resources */,
+				D8AACD412C2ED3CC0030FED9 /* AntDesign.ttf in Resources */,
+				CF44F63E724B46F1B2ECDBDD /* Ubuntu-L.ttf in Resources */,
+				D8AACD472C2ED3CC0030FED9 /* FontAwesome5_Regular.ttf in Resources */,
+				00A5891D8CCB4D2BB06F6647 /* Ubuntu-LI.ttf in Resources */,
+				5961D497BFCB4F70846DE25E /* Ubuntu-M.ttf in Resources */,
+				FA43D70418344C0C84B98936 /* Ubuntu-MI.ttf in Resources */,
+				632EDEFA070847F399645982 /* Ubuntu-R.ttf in Resources */,
+				46D44F29CBC74D47B87AEEB7 /* Ubuntu-RI.ttf in Resources */,
+				D8AACD482C2ED3CC0030FED9 /* FontAwesome5_Solid.ttf in Resources */,
+				D8AACD532C2ED3CC0030FED9 /* Zocial.ttf in Resources */,
+				D8AACD422C2ED3CC0030FED9 /* Entypo.ttf in Resources */,
+				C70A90075F974373867050F3 /* UbuntuMono-B.ttf in Resources */,
+				E2A78CC51C904D9DAB80F3C0 /* UbuntuMono-BI.ttf in Resources */,
+				639C8777C6FD4F9496A4C18A /* UbuntuMono-R.ttf in Resources */,
+				664FE53A4A3C49798149AEE2 /* UbuntuMono-RI.ttf in Resources */,
+				D8AACD432C2ED3CC0030FED9 /* EvilIcons.ttf in Resources */,
+				D8AACD4F2C2ED3CC0030FED9 /* MaterialCommunityIcons.ttf in Resources */,
+				7DFB0E2421DD487784F4BA86 /* banoka.jpg in Resources */,
+				6ED5979EDCEB4167BB73F6D8 /* credit.jpg in Resources */,
+				82C7DEC3904D43E8A81503FD /* depo.jpg in Resources */,
+				D8AACD442C2ED3CC0030FED9 /* Feather.ttf in Resources */,
+				D8AACD452C2ED3CC0030FED9 /* FontAwesome.ttf in Resources */,
+				4CED52F66CE84AD7AA86B6AD /* index.js in Resources */,
+				E8587F312EAB4D63B52A4557 /* logo.jpg in Resources */,
+				933DE393EB454EA79ABF8552 /* screen.png in Resources */,
+				D8AACD522C2ED3CC0030FED9 /* SimpleLineIcons.ttf in Resources */,
+				D8AACD4B2C2ED3CC0030FED9 /* FontAwesome6_Solid.ttf in Resources */,
+				D8AACD492C2ED3CC0030FED9 /* FontAwesome6_Brands.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,79 +430,34 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
 			);
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banoka/Pods-Banoka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		4AE46977ECA81C543B3E86D1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests-resources.sh",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banoka/Pods-Banoka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Banoka/Pods-Banoka-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4CD99A9C013ADF32A8A831F6 /* [CP] Check Pods Manifest.lock */ = {
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -574,101 +479,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		99ED58A0A193EC0580958235 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Banoka-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D03CA9C12559D7AA682502CC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Banoka/Pods-Banoka-resources.sh",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Banoka/Pods-Banoka-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DB14B8911A3EEF7CB88DA123 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Banoka-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD092D0C5E4F8E99522F7AFA /* [CP] Check Pods Manifest.lock */ = {
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -690,42 +501,55 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD10A7F022414F080027D42C /* Start Packager */ = {
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
-			name = "Start Packager";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banoka/Pods-Banoka-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
-			name = "Start Packager";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banoka/Pods-Banoka-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Banoka/Pods-Banoka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Banoka-BanokaTests/Pods-Banoka-BanokaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -743,25 +567,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4771E0B4A5D006451C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DCD954D1E0B4F2C00145EB5 /* BanokaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,17 +580,12 @@
 			target = 13B07F861A680F5B00A75B9A /* Banoka */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
-		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Banoka-tvOS */;
-			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 173D34B3C1548320E2774F33 /* Pods-Banoka-BanokaTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-Banoka-BanokaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -791,8 +593,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = BanokaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -806,13 +612,17 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F802FF29E7D35FD84739711 /* Pods-Banoka-BanokaTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-Banoka-BanokaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = BanokaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -826,14 +636,18 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F9901AC9BF776628856F59F /* Pods-Banoka.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Banoka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Banoka/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -849,13 +663,17 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA841CA7C45F5517AB2D6658 /* Pods-Banoka.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Banoka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Banoka/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -868,122 +686,13 @@
 			};
 			name = Release;
 		};
-		2D02E4971E0B4A5E006451C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 568E6547080A266AB2BA9AD7 /* Pods-Banoka-tvOS.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Banoka-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Banoka-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		2D02E4981E0B4A5E006451C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E78469C945FE9D84A85F01A3 /* Pods-Banoka-tvOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Banoka-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Banoka-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
-		2D02E4991E0B4A5E006451C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FEA2C9E7107E399CD04AEF5 /* Pods-Banoka-tvOSTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Banoka-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Banoka-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Banoka-tvOS.app/Banoka-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
-			};
-			name = Debug;
-		};
-		2D02E49A1E0B4A5E006451C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BADCA8DC6D8313ED3E5E5457 /* Pods-Banoka-tvOSTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Banoka-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Banoka-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Banoka-tvOS.app/Banoka-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
-			};
-			name = Release;
-		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -1001,6 +710,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1008,8 +718,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1025,16 +737,35 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -1042,8 +773,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -1061,6 +793,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1068,8 +801,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1078,15 +813,34 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1108,24 +862,6 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Banoka-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D02E4971E0B4A5E006451C7 /* Debug */,
-				2D02E4981E0B4A5E006451C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Banoka-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D02E4991E0B4A5E006451C7 /* Debug */,
-				2D02E49A1E0B4A5E006451C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

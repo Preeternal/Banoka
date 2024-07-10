@@ -1,0 +1,81 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Ubuntu-B.ttf",
+      "sha1": "0d1a8b39a1ced75d8a6e93eda56a396c3249dc1d"
+    },
+    {
+      "path": "src/assets/fonts/Ubuntu-BI.ttf",
+      "sha1": "cdbccc7f4e16672c9367af9cf5fc56b91b682a4b"
+    },
+    {
+      "path": "src/assets/fonts/Ubuntu-C.ttf",
+      "sha1": "8909bb7bcf43c0429df2ab07ea5110409a5f39e0"
+    },
+    {
+      "path": "src/assets/fonts/Ubuntu-L.ttf",
+      "sha1": "a25fe116f6ac4b6efe318e3bc8a9ce3b58824412"
+    },
+    {
+      "path": "src/assets/fonts/Ubuntu-LI.ttf",
+      "sha1": "d9d29dba409c4784fd2ab50141282832950af2e7"
+    },
+    {
+      "path": "src/assets/fonts/Ubuntu-M.ttf",
+      "sha1": "f68d1e3fe86977f782c27b2992091d68cb07ef8d"
+    },
+    {
+      "path": "src/assets/fonts/Ubuntu-MI.ttf",
+      "sha1": "c7f84933f011e5f13631908c0d23c3bbf07d1fe6"
+    },
+    {
+      "path": "src/assets/fonts/Ubuntu-R.ttf",
+      "sha1": "ef32ba2c56fcb8c6e5a8e7f57985a8be01484524"
+    },
+    {
+      "path": "src/assets/fonts/Ubuntu-RI.ttf",
+      "sha1": "5fdb037d70fd1b35a5ed493efb02e9e158432a8d"
+    },
+    {
+      "path": "src/assets/fonts/UbuntuMono-B.ttf",
+      "sha1": "ead7d2555c6a81f74d572447256f0de7368ef271"
+    },
+    {
+      "path": "src/assets/fonts/UbuntuMono-BI.ttf",
+      "sha1": "1028b096d2790d877fe626a4be9f678ce5512205"
+    },
+    {
+      "path": "src/assets/fonts/UbuntuMono-R.ttf",
+      "sha1": "f4bfd74c2d10ea57abe1f7fa23f303e6875774ab"
+    },
+    {
+      "path": "src/assets/fonts/UbuntuMono-RI.ttf",
+      "sha1": "e4f50e05294d455a946cb8682e210e68fdcf5cb3"
+    },
+    {
+      "path": "src/assets/images/banoka.jpg",
+      "sha1": "a78c2ae37bb177b0d51158cdf9562e2b2c649f26"
+    },
+    {
+      "path": "src/assets/images/credit.jpg",
+      "sha1": "74199aa5d77120d71db77d58f1ea01f1c43706a8"
+    },
+    {
+      "path": "src/assets/images/depo.jpg",
+      "sha1": "9216ce2e4280624a56cea6ba27070dcafa4ac966"
+    },
+    {
+      "path": "src/assets/images/index.js",
+      "sha1": "419de139e44f20aac82109452e4562d2263be895"
+    },
+    {
+      "path": "src/assets/images/logo.jpg",
+      "sha1": "b980550b6507ef5563d56aed328ee57362b9a27b"
+    },
+    {
+      "path": "src/assets/images/screen.png",
+      "sha1": "fd2185fa474184d6d69322280424cab4358f68e5"
+    }
+  ]
+}
