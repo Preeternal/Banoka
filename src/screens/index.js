@@ -216,16 +216,16 @@ const SettingsStack = ({ navigation }) => {
                     headerLeft: () => (
                         <DrawerButton onPress={navigation.openDrawer} />
                     ),
-                    headerRight: () =>
-                        Platform.OS === 'android' && (
-                            <DrawerButton
-                                type="MaterialIcons"
-                                name="payment"
-                                onPress={() =>
-                                    navigation.navigate('Investments')
-                                }
-                            />
-                        ),
+                    // headerRight: () =>
+                    //     Platform.OS === 'android' && (
+                    //         <DrawerButton
+                    //             type="MaterialIcons"
+                    //             name="payment"
+                    //             onPress={() =>
+                    //                 navigation.navigate('Investments')
+                    //             }
+                    //         />
+                    //     ),
                 })}
             />
             <Stack.Screen
