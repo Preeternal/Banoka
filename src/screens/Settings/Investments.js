@@ -2,7 +2,7 @@
 import React, { Component, Fragment } from 'react';
 import { ScrollView, Platform, Text, Alert } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-import * as RNIap from 'react-native-iap';
+// import * as RNIap from 'react-native-iap';
 import 'number-to-locale-string';
 
 import { Card, Header, CardSection, Button } from '../../components/common';
@@ -39,45 +39,45 @@ class Investments extends Component<{}, State> {
 
     async componentDidMount() {
         if (Platform.OS === 'android') {
-            try {
-                const iapConnection = await RNIap.initConnection();
-                const products = await RNIap.getProducts(prodItems);
-                this.setState({ iapConnection, products });
-                const purchases = await RNIap.getAvailablePurchases();
-                if (purchases.length) {
-                    // await RNIap.consumeAllItemsAndroid(); did not work as expected, need to open issue
-                    purchases.map(async purchase => {
-                        await RNIap.consumePurchaseAndroid(
-                            purchase.purchaseToken,
-                        );
-                    });
-                }
-                this.purchaseUpdateSubscription = RNIap.purchaseUpdatedListener(
-                    purchase => {
-                        if (
-                            purchase.transactionReceipt &&
-                            this.state.products.length
-                        ) {
-                            this.setState(prevState => ({
-                                products: prevState.products.filter(
-                                    product =>
-                                        purchase.productId !==
-                                        product.productId,
-                                ),
-                                purchased: true,
-                            }));
-                        }
-                    },
-                );
-                this.purchaseErrorSubscription = RNIap.purchaseErrorListener(
-                    error => {
-                        console.warn('purchaseErrorListener', error);
-                        Alert.alert('purchase error', JSON.stringify(error));
-                    },
-                );
-            } catch (err) {
-                console.warn(err.code, err.message);
-            }
+            // try {
+            //     const iapConnection = await RNIap.initConnection();
+            //     const products = await RNIap.getProducts(prodItems);
+            //     this.setState({ iapConnection, products });
+            //     const purchases = await RNIap.getAvailablePurchases();
+            //     if (purchases.length) {
+            //         // await RNIap.consumeAllItemsAndroid(); did not work as expected, need to open issue
+            //         purchases.map(async purchase => {
+            //             await RNIap.consumePurchaseAndroid(
+            //                 purchase.purchaseToken,
+            //             );
+            //         });
+            //     }
+            //     this.purchaseUpdateSubscription = RNIap.purchaseUpdatedListener(
+            //         purchase => {
+            //             if (
+            //                 purchase.transactionReceipt &&
+            //                 this.state.products.length
+            //             ) {
+            //                 this.setState(prevState => ({
+            //                     products: prevState.products.filter(
+            //                         product =>
+            //                             purchase.productId !==
+            //                             product.productId,
+            //                     ),
+            //                     purchased: true,
+            //                 }));
+            //             }
+            //         },
+            //     );
+            //     this.purchaseErrorSubscription = RNIap.purchaseErrorListener(
+            //         error => {
+            //             console.warn('purchaseErrorListener', error);
+            //             Alert.alert('purchase error', JSON.stringify(error));
+            //         },
+            //     );
+            // } catch (err) {
+            //     console.warn(err.code, err.message);
+            // }
         }
     }
 
@@ -93,33 +93,33 @@ class Investments extends Component<{}, State> {
     }
 
     buyItem = async (sku: string) => {
-        try {
-            await RNIap.requestPurchase(sku);
-            this.purchaseUpdateSubscription = RNIap.purchaseUpdatedListener(
-                purchase => {
-                    if (
-                        purchase.transactionReceipt &&
-                        this.state.products.length
-                    ) {
-                        this.setState(prevState => ({
-                            products: prevState.products.filter(
-                                product =>
-                                    purchase.productId !== product.productId,
-                            ),
-                            purchased: true,
-                        }));
-                    }
-                },
-            );
-        } catch (err) {
-            console.warn(err.code, err.message);
-            this.purchaseErrorSubscription = RNIap.purchaseErrorListener(
-                error => {
-                    console.warn('purchaseErrorListener', error);
-                    Alert.alert('purchase error', JSON.stringify(error));
-                },
-            );
-        }
+        // try {
+        //     await RNIap.requestPurchase(sku);
+        //     this.purchaseUpdateSubscription = RNIap.purchaseUpdatedListener(
+        //         purchase => {
+        //             if (
+        //                 purchase.transactionReceipt &&
+        //                 this.state.products.length
+        //             ) {
+        //                 this.setState(prevState => ({
+        //                     products: prevState.products.filter(
+        //                         product =>
+        //                             purchase.productId !== product.productId,
+        //                     ),
+        //                     purchased: true,
+        //                 }));
+        //             }
+        //         },
+        //     );
+        // } catch (err) {
+        //     console.warn(err.code, err.message);
+        //     this.purchaseErrorSubscription = RNIap.purchaseErrorListener(
+        //         error => {
+        //             console.warn('purchaseErrorListener', error);
+        //             Alert.alert('purchase error', JSON.stringify(error));
+        //         },
+        //     );
+        // }
     };
 
     render() {
